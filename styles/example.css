@@ -1,0 +1,122 @@
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url(/font/Tajawal/Tajawal-Regular.ttf);
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+}
+
+.container {
+  background-color: #fff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 1318px;
+  margin-right: 13%;
+
+}
+
+.form-group {
+  text-align: right;
+  flex: 1 1 50%;
+  display: flex;
+  height: 130px;
+  flex-direction: column;
+  margin-inline: 3%;
+
+
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight:normal;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid #f3f4f6;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+input[readonly] {
+  background-color: #f0f0f0;
+  color: #555;
+  cursor: not-allowed;
+}
+
+input:hover,
+select:hover {
+border-color: #c4bcb9;
+}
+
+input:focus,
+select:focus {
+border-color: #392015;
+outline: none;
+}
+
+.checkbox-wrapper {
+  margin: 30px 225px 20px 0 ;
+}
+
+.checkbox-wrapper label {
+  font-size: 14px;
+  color: #333;
+  accent-color: #392015;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+#saveBtn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: not-allowed;
+  background-color: #c4bcb9;
+  color: #392015;
+  transition: background-color 0.3s;
+}
+
+#saveBtn.enabled {
+  background-color: #392015;
+  color:#c4bcb9;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .form-group {
+    flex: 1 1 100%;
+  }
+  
+}
