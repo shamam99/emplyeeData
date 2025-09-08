@@ -131,7 +131,7 @@
     position:relative;inline-size:60%;
     min-block-size:clamp(340px,46vh,560px);
     border-radius:18px;
-    background:url("../images/back.png") no-repeat center/cover;
+    background:url("../assets/back.png") no-repeat center/cover;
     overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.04),var(--shadow-card);
   }
   .auth-panel::before{
