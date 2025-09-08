@@ -106,6 +106,25 @@
   .am-table th+th,.am-table td+td{border-inline-start:1px solid var(--border);}
   .am-table tbody tr:last-child td{border-bottom:0;}
   .table-responsive.rounded-3.border{background:#fff;}
+
+  /* Custom brown checkbox */
+ .form-check-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #4B2E1E;  
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .form-check-input:checked {
+    background-color: #4B2E1E;  
+    border-color: #4B2E1E;
+  }
   
   /* ========== Toast ========== */
   .am-toast{
