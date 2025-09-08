@@ -23,7 +23,7 @@
   
     /* exact heights so <main> can reserve space precisely */
     --header-total: calc(var(--logo-h) + 2 * var(--header-pad-block));
-    --footer-h:26px;
+    --footer-h:28px;
   
     /* Radii + shadows */
     --radius-card:14px;
