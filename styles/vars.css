@@ -1,0 +1,51 @@
+:root{
+    /* Brand + UI */
+    --stroke:#392015;
+    --ro-bg:#F3F4F6;                
+    --ed-bg:#FFFFFF;
+    --hover-shadow:#C4BCB9;
+    --table-head:#FFFFFF;
+    --table-row:#F3F4F6;
+  
+    --text:#1B1C1E;
+    --muted:#6B6F76;
+    --border:#E5E7EB;
+    --focus:#074D31;
+    --error:#4d0f07;
+  
+    --page-bg:#FAFBFC;               /* for strip */
+    --card-bg:#FFFFFF;               /* body background */
+    --hf-bg:var(--ro-bg);            /* shared header/footer bg */
+
+    --header-pad-block: 38px;     /* vertical padding inside header */
+    --logo-h: 84px;               /* fixes header height */
+    --brand-strip-h: 50px;    
+  
+    /* Radii + shadows */
+    --radius-card:14px;
+    --radius-ctl:4px;
+    --shadow-card:0 8px 24px rgba(0,0,0,.06);
+  
+    /* Layout paddings/gutters */
+    --page-pad-i:61px;
+    --page-pad-b:28px;
+    --card-pad-i:65px;
+    --card-pad-b:45px;
+    --gutter-x:110px;
+    --gutter-y:65px;
+  
+    /* Containers */
+    --container-w:1880px;
+  
+    /* Success page */
+    --success-hero-h:720px;
+    --success-row-gap:12px;
+    --success-gap:6px;
+    --success-watermark-left:4%;
+    --success-watermark-w:230px;
+  
+    /* Auth page */
+    --auth-hero-h:720px;
+    --auth-gap:98px;
+    --auth-copy-max:34ch;
+  }
